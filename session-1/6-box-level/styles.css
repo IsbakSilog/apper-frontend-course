@@ -1,0 +1,138 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding-left: 160px;
+    padding-top: 60px;
+    overflow: y;
+}
+
+header {
+    background-color: #112DB0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    border:  solid #000000;
+    text-align: left;
+    z-index: 1;
+}
+header h2 {
+    color: #fff; 
+    margin-left: 100px; 
+}
+.username {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+.subheader {
+    position: fixed;
+    top: 60px;
+    left: 160px;
+    right:0;
+    background-color: #fff;
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+    color: rgb(121, 116, 116);
+    z-index: 1;
+    margin-left: 10px;
+    border:  solid #000000;
+}
+footer{
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    text-align: end;
+    border:  black solid;
+}
+
+
+.box {
+    display: inline block;
+    height: 300px;
+    /* border: 2px solid #333; */
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    margin-left: 60px;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    border:  solid #000000;
+}
+
+.red *{
+    position: relative;
+    left: 0px;
+    padding: 10px;
+    background-color: #112DB0;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    word-spacing: 30px;
+}
+
+.nav{
+    width: 150px;
+    position:fixed;
+    top: 60px;
+    left: 0;
+    bottom: 43px;
+    border:  solid #000000;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.hamburger {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.search-bar {
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 200px);  
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    font-size: 12px;
+}
+
+.search-bar-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
